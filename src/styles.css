@@ -1,0 +1,230 @@
+body {
+    font-family: Roboto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+#header {
+    background-color: #347644;
+}
+
+#header .row {
+    padding-top: 20px;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-nav li {
+    margin: 0 15px;
+}
+
+.active a {
+    color: #347644 !important;
+    border-bottom: 3px solid #347644;
+}
+
+#welcome {
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.wrapper {
+    background-image: url('../img/building0.jpg');
+    background-size: cover, contain;
+}
+
+#surveyed-orgs {
+    height: 100%;
+    background-color: #b1d6ba;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row>.col-md-4 {
+    flex: 30%;
+    margin: 5px;
+    height: 22vh;
+    width: 22vh;
+    line-height: 22vh;
+}
+
+.icon-card {
+    margin: 0 auto;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.icon-card i {
+    color: #fff;
+}
+
+.icon-card::after {
+    height: 65%;
+    text-align: center;
+    color: #404040;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hr-bold {
+    border-color: rgba(0, 0, 0, 0.8);
+}
+
+/* icon tags text */
+
+#private-business-a::after {
+    content: "10 - Private Business Associations";
+}
+
+#informal-association::after {
+    content: "4 - Informal Associations";
+}
+
+#professional-bodies::after {
+    content: "60 - Professional Bodies";
+}
+
+#ngo::after {
+    content: "11 - NGOs";
+}
+
+#public-agencies::after {
+    content: "89 - Public Entities";
+}
+
+#private-business-e::after {
+    content: "7 - Private Business Entities";
+}
+
+/* icon tags text end */
+
+#about .card {
+    margin: 1%;
+}
+
+#about #img {
+    padding: 10%;
+}
+
+footer {
+    height: 100vh;
+}
+
+#partners {
+    height: 60%;
+    padding-top: 10vh;
+    background: #fff;
+}
+
+#partners img {
+    padding-top: 10%;
+    height: 20vh;
+    width: 20vw;
+}
+
+#footer {
+    height: 40%;
+}
+
+#footer p {
+    opacity: 0.6;
+}
+
+#social-icons a {
+    margin: 0 2%;
+}
+
+#social-icons i {
+    font-size: x-large;
+}
+
+#data-table-parent {
+    background: #fff;
+}
+
+.nav-pills a {
+    color: #414141;
+    font-size: large;
+}
+
+.nav-pills .active {
+    background-color: #347644 !important;
+}
+
+/* font-awesome colors */
+
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-twitter {
+    color: #38A1F3
+}
+
+.fa-instagram {
+    color: #3f729b
+}
+
+.fa-linkedin-in {
+    color: #0976b4
+}
+
+/* smallscreen media queries */
+
+@media screen and (max-width: 767px) {
+    #surveyed-orgs row * {
+        display: inline;
+    }
+    #about #img {
+        display: none;
+    }
+    #partners img {
+        height: 10vh;
+    }
+    #charts .row {
+        display: block;
+    }
+}
+
+/* navbar toggler button left */
+
+@media (max-width:767px) {
+    .navbar-header {
+        display: flex;
+    }
+    .navbar-brand {
+        order: 1;
+    }
+    .navbar-toggle {
+        order: 0;
+        margin-left: 15px;
+        margin-right: 0;
+    }
+}
