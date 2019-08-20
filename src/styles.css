@@ -196,6 +196,29 @@ footer {
     color: #0976b4
 }
 
+/* code of conduct */
+.card.coc {
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card.coc>span {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 5px;
+}
+
+.card.coc:hover {
+    box-shadow: #404040 0 0 3px;
+}
+
 /* smallscreen media queries */
 
 @media screen and (max-width: 767px) {
