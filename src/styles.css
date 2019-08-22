@@ -198,8 +198,10 @@ footer {
 
 /* code of conduct */
 .card.coc {
+    background-color: #ffffff;
     text-align: center;
     padding: 10px;
+    border-top: 2px solid #347644;
 }
 
 .card img {
@@ -216,7 +218,7 @@ footer {
 }
 
 .card.coc:hover {
-    box-shadow: #404040 0 0 3px;
+    box-shadow: #404040 0 0 5px;
 }
 
 /* smallscreen media queries */

@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 10px;
+    background: #347644;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    color: #fff;
+    box-shadow: #fff 0 0 1px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+embed {
+    height: 100vh;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .float-right,
+    .float-left {
+        float: none;
+        background: #fff;
+        color: #347644;
+        padding: 2px;
+        margin-top: 10px;
+    }
+}
