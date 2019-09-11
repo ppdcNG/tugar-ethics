@@ -11,6 +11,7 @@ $(function () {
     var table = $("#data-table").DataTable({
         lengthChange: false,
         responsive: true,
+        "scrollX": true,
         buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
     });
 
