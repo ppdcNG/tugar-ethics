@@ -29,13 +29,16 @@
         #accordion .card-header {
             background: #006c37;
         }
+
         #accordion .card-header:hover {
             background: #0a8a4c;
         }
+
         #accordion .card-header .btn-link {
             color: #fff;
             font-size: large;
         }
+
         .btn-link:hover,
         .btn-link:focus {
             text-decoration: none;
@@ -92,6 +95,7 @@
             <h3 class="text-center">Available Code of Conduct and Ethics</h3>
             <hr />
             <div id="accordion">
+
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
@@ -110,12 +114,64 @@
                                     <div class="card coc">
                                         <a href=""><img src="../img/logo/coren.jpg" alt=""></a>
                                         <p class="pt-3">COREN<br />Engineer's Code of Conduct </p>
-                                        <span>
-                                            <a class="btn btn-outline-success btn-sm"
-                                                href="./codeOfConduct/engineers.html">
-                                                View <i class="fas fa-eye"></i>
-                                            </a>
-                                        </span>
+                                        <!-- Button trigger modal -->
+                                        <br />
+                                        <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                            data-target="#corenModal">
+                                            View Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="corenModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="corenModalTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="corenModalLongTitle">
+                                                            The Council for the Regulation of Engineering in Nigeria
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class="text-justify p-3">
+                                                            The Council for the Regulation of Engineering in Nigeria,
+                                                            COREN, is a body set-up by the Decrees 55/70 and 27/92 (now
+                                                            Acts 110). The Decrees empowered the Council to regulate and
+                                                            control the training and practice of engineering in Nigeria
+                                                            and to ensure and enforce the registration of all
+                                                            engineering personnel (i.e. Engineers, Engineering
+                                                            Technologists, Engineering Technicians, and Engineering
+                                                            Craftsmen) and consulting firms wishing to practice or
+                                                            engage in the practice of engineering.<br />
+                                                        </p>
+                                                        <hr />
+                                                        <small class="text-muted">
+                                                            <b>Head Office:</b> 22 Addis Ababa Crescent Wuse Zone 4,
+                                                            P.O.Box 8461,Wuse, Abuja.<br />
+                                                            <b>Web:</b> https://coren.gov.ng/<br />
+                                                            <b>Mail:</b> info@coren.gov.ng<br />
+                                                            <b>Phone:</b> 0814-509-0579
+                                                        </small>
+                                                        <hr />
+                                                        <span>
+                                                            <a class="btn btn-outline-success btn-sm"
+                                                                href="./codeOfConduct/engineers.html">
+                                                                View Code of Conduct <i class="fas fa-eye"></i>
+                                                            </a>
+                                                        </span>
+
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -123,11 +179,59 @@
                                         <a href=""><img src="../img/logo/ican.jpg" height="50px" alt=""></a>
                                         <p>The Institue of Chartered Accountants of Nigeria. Professional Code of
                                             Conduct and Ethics</p>
-                                        <span>
-                                            <a class="btn btn-outline-success btn-sm" href="./codeOfConduct/ican.html">
-                                                View <i class="fas fa-eye"></i>
-                                            </a>
-                                        </span>
+
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                            data-target="#icanModal">
+                                            View Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="icanModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="icanModalTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="icanModalLongTitle">
+                                                            The Institute of Chartered Accountants of Nigeria (ICAN)
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class="text-justify p-3">
+                                                            The Institute of Chartered Accountants of Nigeria (ICAN) was
+                                                            established by Act of Parliament No. 15 of 1965 to produce
+                                                            world-class Chartered Accountants, regulate and continually
+                                                            enhance their ethical standards and technical competence in
+                                                            the public interest. And to determine what standards of
+                                                            knowledge and skill are to be attained by persons seeking to
+                                                            become members of the accountancy profession and to raise
+                                                            those standards from time to time as circumstances may
+                                                            permit, among other functions.
+                                                        </p>
+                                                        <hr />
+                                                        <small class="text-muted">
+                                                            <b>Address:</b> 2048 Michael Okpara St, Wuse, Abuja<br />
+                                                            <b>Web:</b> http://www.icanig.org/<br />
+                                                        </small>
+                                                        <hr />
+                                                        <span>
+                                                            <a class="btn btn-outline-success btn-sm"
+                                                                href="./codeOfConduct/ican.html">
+                                                                View Code of Conduct <i class="fas fa-eye"></i>
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -135,6 +239,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
@@ -152,11 +257,65 @@
                                     <div class="card coc">
                                         <a href=""><img src="../img/logo/firs.png" alt=""></a>
                                         <p>FIRS Code of Ethics</p>
-                                        <span>
-                                            <a class="btn btn-outline-success btn-sm" href="./codeOfConduct/firs.html">
-                                                View <i class="fas fa-eye"></i>
-                                            </a>
-                                        </span>
+                                        <!-- Button trigger modal -->
+                                        <br />
+                                        <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                            data-target="#firsModal">
+                                            View Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="firsModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="firsModalTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="firsModalLongTitle">
+                                                            Federal Inland Revenue Service
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class="text-justify p-3">
+                                                            The Mission of the FIRS is To operate a transparent and an
+                                                            efficient tax system that optimises tax revenue collection
+                                                            and voluntary compliance."
+                                                        </p>
+                                                        <hr />
+                                                        <small class="text-muted">
+                                                            <b>Head Office:</b> Revenue House,
+                                                            20 Sokode Crescent,
+                                                            Wuse Zone 5,
+                                                            Abuja
+                                                            Nigeria <br />
+                                                            <b>Web:</b> https://www.firs.gov.ng/<br />
+                                                            <b>Mail:</b>
+                                                            helpdesk@firs.gov.ng,​
+                                                            enquiries@firs.gov.ng,​
+                                                            ​complaints@firs.gov.ng,
+                                                            servicom@firs.gov.ng<br />
+                                                            <b>Phone:</b> 09074444441, 09074444442, 09072111111,
+                                                            09073777777
+                                                        </small>
+                                                        <hr />
+                                                        <span>
+                                                            <a class="btn btn-outline-success btn-sm"
+                                                                href="./codeOfConduct/firs.html">
+                                                                View Code of Ethics <i class="fas fa-eye"></i>
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -164,6 +323,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
@@ -183,12 +343,56 @@
                                             <a><img src="../img/logo/julius-berger.png" height="45" alt=""></a>
                                             <p>Code of Business Conduct and Ethics for Directors and Management</p>
                                         </div>
-                                        <span>
-                                            <a class="btn btn-outline-success btn-sm"
-                                                href="./codeOfConduct/juliusberger.html">
-                                                View <i class="fas fa-eye"></i>
-                                            </a>
-                                        </span>
+                                        <!-- Button trigger modal -->
+                                        <br />
+                                        <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                            data-target="#juliusbergerModal">
+                                            View Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="juliusbergerModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="juliusbergerModalTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header text-center">
+                                                        <h5 class="modal-title w-100" id="juliusbergerModalLongTitle">
+                                                            Julius Berger
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class="text-justify p-3">
+                                                            Julius Berger Nigeria Plc (Julius Berger) is a leading
+                                                            construction company offering integrated solutions and
+                                                            related services. Julius Berger specializes in executing
+                                                            complex works that require the highest level of technical
+                                                            expertise and Nigeria-specific knowhow.
+                                                        </p>
+                                                        <hr />
+                                                        <small class="text-muted">
+                                                            <b>Head Office:</b> 10 Shettima A. Munguno Crescent | Utako
+                                                            900 108 | FCT Abuja<br />
+                                                            <b>Web:</b> https://www.julius-berger.com/<br />
+                                                        </small>
+                                                        <hr />
+                                                        <span>
+                                                            <a class="btn btn-outline-success btn-sm"
+                                                                href="./codeOfConduct/juliusberger.html">
+                                                                View Code of Business Conduct <i class="fas fa-eye"></i>
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -213,16 +417,62 @@
                                 <div class="col-md-4">
                                     <div class="card coc">
                                         <a href=""><img src="../img/logo/naccima.gif" alt=""></a>
-                                        <p>NACCIMA Code of Ethics
-                                            <br/>
-                                            <small>(Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture)</small>
-                                        </p>
-                                        <span>
-                                            <a class="btn btn-outline-success btn-sm"
-                                                href="./codeOfConduct/naccima.html">
-                                                View <i class="fas fa-eye"></i>
-                                            </a>
-                                        </span>
+                                        <p class="mb-0">NACCIMA Code of Ethics</p>
+                                        <small>(Nigerian Association of Chambers of Commerce, Industry, Mines and
+                                            Agriculture)</small>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                            data-target="#naccimaModal">
+                                            View Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="naccimaModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="naccimaModalTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="naccimaModalLongTitle">
+                                                            Nigerian Association of Chambers of Commerce, Industry,
+                                                            Mines and Agriculture
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class="text-justify p-3">
+                                                            The Mission of NACCIMA As 'the Voice of Nigerian Business',
+                                                            is ensuring an enabling business environment through policy
+                                                            advocacy, promoting growth and competitiveness of businesses
+                                                            through proper and prompt information dissemination, using
+                                                            modern technology comparable to the best universal standard
+                                                            of Chambers of Commerce and Industry anywhere in the world.
+                                                        </p>
+                                                        <hr />
+                                                        <small class="text-muted">
+                                                            <b>Head Office:</b>National Secretariat:
+                                                            8A Oba Akinjobi Way, Ikeja-GRA, Lagos. <br />
+                                                            <b>Web:</b> https://www.naccima.com/<br />
+                                                            <b>Mail:</b> info@naccima.com<br />
+                                                            <b>Phone:</b> 0802 094 1203
+                                                        </small>
+                                                        <hr />
+                                                        <span>
+                                                            <a class="btn btn-outline-success btn-sm"
+                                                                href="./codeOfConduct/naccima.html">
+                                                                View Code of Ethics <i class="fas fa-eye"></i>
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -248,11 +498,56 @@
                                     <div class="card coc">
                                         <a href=""><img src="../img/logo/wimn.png" alt=""></a>
                                         <p>Women in Mining<br />Code of Conduct and Ethics</p>
-                                        <span>
+
+                                        <!-- Button trigger modal -->
+                                        <br />
+                                        <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                            data-target="#wimnModal">
+                                            View Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="wimnModal" tabindex="-1" role="dialog"
+                                            aria-labelledby="wimnModalTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="wimnModalLongTitle">
+                                                            Women In Mining Nigeria
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p class="text-justify p-3">
+                                                            Women in Mining in Nigeria (WIMIN) is a non-profit
+                                                            organisation established to protect the rights of all groups
+                                                            of women affected by mining operations.
+                                                        </p>
+                                                        <hr />
+                                                        <small class="text-muted">
+                                                            <b>Head Office:</b> Plot 1240 Shop 102, Dabo Mall, Samuel
+                                                            Ladoke
+                                                            Akintola Boulevard, Garki II – Abuja.<br />
+                                                            <b>Web:</b> https://wimng.org/<br />
+                                                            <b>Phone:</b>+2348034415949, +2348037876241
+                                                        </small>
+                                                        <hr />
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <span>
                                             <a class="btn btn-outline-success btn-sm" href="./codeOfConduct/wim.html">
-                                                View <i class="fas fa-eye"></i>
+                                                View Code of Conduct and Ethics <i class="fas fa-eye"></i>
                                             </a>
-                                        </span>
+                                        </span> -->
                                     </div>
                                 </div>
                             </div>
