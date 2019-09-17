@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var myChart = Highcharts.chart("container1", {
         chart: {
-            type: "column"
+            type: "pie"
         },
         title: {
             text: "Chart 1"
