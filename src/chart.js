@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         series: [
             {
-                name: 'Brands',
+                name: 'Number',
                 data: [{
                     name: 'Either Code of COnduct or Code of Ethics',
                     y: 89
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             text: "Organizations indicating that their Codes have explicit anti-corruption elements"
         },
         series: [{
-            name: 'Brands',
+            name: 'Number',
             data: [{
                 name: 'Yes',
                 y: 24
@@ -64,8 +64,8 @@ document.addEventListener("DOMContentLoaded", function () {
             categories: ['Yes', 'No', 'No information']
         },
         series: [{
-            name: 'Brands',
-            data: [23, 15, 143]
+            name: 'Number',
+            data: [23, { y: 15, color: '#BF0B23' }, { y: 143, color: '#404040' }]
         }]
     });
 
@@ -81,8 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
             categories: ['Yes', 'No', 'No information']
         },
         series: [{
-            name: 'Brands',
-            data: [32, 2, 147]
+            name: 'Number',
+            data: [32, { y: 2, color: '#bf0b23' }, { y: 147, color: '#404040' }]
         }]
     });
 
@@ -98,8 +98,8 @@ document.addEventListener("DOMContentLoaded", function () {
             categories: ['Yes', 'No', 'Link not working']
         },
         series: [{
-            name: 'Brands',
-            data: [23, 154, 4]
+            name: 'Number',
+            data: [23, { y: 154, color: '#bf0b23' }, { y: 4, color: '#000' }]
         }]
     });
 
@@ -115,8 +115,8 @@ document.addEventListener("DOMContentLoaded", function () {
             categories: ['Yes', 'No', 'Broken Link']
         },
         series: [{
-            name: 'Brands',
-            data: [7, 81, 1 ]
+            name: 'Number',
+            data: [7, { y: 81, color: '#bf0b23' }, { y: 1, color: '#000' }]
         }]
     });
 
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         series: [
             {
-                name: 'Brands',
+                name: 'Number',
                 data: [{
                     name: 'Yes',
                     y: 56
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         series: [
             {
-                name: 'Brands',
+                name: 'Number',
                 data: [{
                     name: 'Yes',
                     y: 29
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         series: [{
             name: 'Numbers',
-            data: [23, 158]
+            data: [23, { y: 158, color: '#bf0b23' }]
         }]
     });
 
@@ -200,27 +200,27 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         series: [{
             name: 'Numbers',
-            data: [37, 3, 49]
+            data: [37, 3, { y: 49, color: '#000' }]
         }]
     });
 
 
-        // 11th chart
-        Highcharts.chart("container11", {
-            chart: {
-                type: "column"
-            },
-            title: {
-                text: "The State of Periodic Review of Codes of Conduct or Ethics"
-            },
-            xAxis: {
-                categories: ['No information', 'Disputable', 'No', 'Yes']
-            },
-            series: [{
-                name: 'Numbers',
-                data: [155, 7, 22, 2]
-            }]
-        });
+    // 11th chart
+    Highcharts.chart("container11", {
+        chart: {
+            type: "column"
+        },
+        title: {
+            text: "The State of Periodic Review of Codes of Conduct or Ethics"
+        },
+        xAxis: {
+            categories: ['No information', 'Disputable', 'No', 'Yes']
+        },
+        series: [{
+            name: 'Numbers',
+            data: [{ y: 155, color: '#000' }, { y: 7, color: '#ffff00' }, { y: 22, color: '#bf0b23' }, 2]
+        }]
+    });
 
 
 }); // end domContent loaded
